@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll中文 测试!"
+title:  "Welcome to Jekyll中文 测!"
 date:   2014-06-17 09:40:42
 categories: jekyll update
 ---
