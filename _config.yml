@@ -4,6 +4,7 @@ email: phoenix.fy24h@gmail.com
 description: "welcome"
 baseurl: ""
 url: "http://www.fy24h.com"
+auto: true
 
 # Build settings
 markdown: rdiscount
