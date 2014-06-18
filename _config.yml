@@ -1,0 +1,10 @@
+# Site settings
+title: coding
+email: phoenix.fy24h@gmail.com
+description: "welcome"
+baseurl: ""
+url: "http://www.fy24h.com"
+
+# Build settings
+markdown: rdiscount
+permalink: pretty
