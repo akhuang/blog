@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Welcome to Jekyll中文!test"
-date: {}
+date: 2014-06-21 02:31:45
 categories: jekyll update
 published: true
 ---
