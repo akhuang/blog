@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Welcome to Jekyll中文!"
-date:   2014-06-17 09:40:42
+title: "Welcome to Jekyll中文!test"
+date: {}
 categories: jekyll update
+published: true
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
