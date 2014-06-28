@@ -1,3 +1,5 @@
+
+
 # Site settings
 title: coding
 email: phoenix.fy24h@gmail.com
@@ -9,3 +11,6 @@ auto: true
 # Build settings
 markdown: rdiscount
 permalink: pretty
+#permalink: /:year-:month/:title/
+pygments: false
+paginate: 5 
