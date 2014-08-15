@@ -1,44 +1,35 @@
 ---
 layout: default
+single: true
 ---
 
-<div class="page-content">
-    <div class="post-heading">
-        {{ page.title }}
-    </div>
-    <div class="post-meta">
-        <span>
-            发布时间:
-            <a href="{{ page.url }}">{{ page.date | date:"%Y年%m月%d日" }}</a>
-        </span>
-        <span><i class="fa fa-ellipsis-v"></i></span>
-        <span>
-            分类:
-            {% for cat in page.categories %}
-            <a href="/categories.html#{{ cat }}-ref">{{ cat }}</a>
-            {% endfor %}
-        </span>
-        <span><i class="fa fa-ellipsis-v"></i></span>
-        <span>
-            标签:
-            {% for tag in page.tags %}
-            <a href="/tags.html#{{ tag }}-ref">{{ tag }}</a>
-            {% endfor %}
-        <span>
-    </div>
-    <div class="post-entry">
-        {{ content }}
-    </div>
-</div>
-<div class="post-blank post-pager">
-    <ul class="pager">
-        {% if page.previous %}
-        <li class="previous"><a href="{{ page.previous.url }}">&larr; 上一篇</a></li>
-        {% endif %}
-        {% if page.next %}
-        <li class="next"><a href="{{ page.next.url }}">下一篇 &rarr;</a></li>
-        {% endif %}
-    </ul>
-</div>
-{% include disqus_comments.md %}
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">{% include article.html %}</article>
 
+<div data-type="ad" data-publisher="lqm.youvebeenhacked.site" data-zone="ron" data-format="728x90"></div>
+
+{% unless page.sharing == false %}
+	{% include post/sharing.html %}
+{% endunless %}
+
+<div id="page-navigation"> 
+        <div class="previous"> 
+        {% if page.previous.url %} 
+                <a href="{{page.previous.url}}" title="Previous Post: 
+{{page.previous.title}}">&laquo; {{page.previous.title}}</a>
+        {% endif %} 
+        </div>
+
+        <div class="next"> 
+        {% if page.next.url %} 
+               <a href="{{page.next.url}}" title="next Post: 
+{{page.next.title}}">{{page.next.title}} &raquo; </a> 
+        {% endif %} 
+        </div>
+</div> 
+
+{% if site.disqus_short_name and page.comments == true %}
+<section id="comment">
+    <h1 class="title">Comments</h1>
+    <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
+</section>
+{% endif %}
