@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "WorkQueues要点"
+title: "WorkQueues"
 date: 2014-08-15 -0946
 comments: true
 categories: [personal github]
