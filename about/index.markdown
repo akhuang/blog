@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "About Haacked"
-date: 2005-10-15 -0800
+title: "About Phoenix"
+date: 2014-08-16 -0800
 comments: false
 disqus_identifier: 10811
 categories: [personal]

@@ -1,10 +1,10 @@
 #
 # Blog Settings
 #
-author: Phil Haack
-description: You've been Haacked and you like it
+author: Phoenix Huang
+description: Think coding and you like it
 url: http://www.fy24h.com
-title: think coding
+title: Think coding
 subtitle: ...and you like it
 gravatar_url: https://avatars1.githubusercontent.com/u/1182708?v=2&s=40
 subscribe_rss: http://feeds.fy24h.com
@@ -22,7 +22,7 @@ disqus_short_name: thinkcoding
 disqus_show_comment_count: true
 
 # Google Analytics
-#google_analytics_tracking_id: UA-177588-1
+#google_analytics_tracking_id: UA-6869305-3
 
 
 #
