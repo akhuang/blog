@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: 
+Disallow:
 
-Sitemap: http://haacked.com/sitemap.xml 
+Sitemap: http://www.fy24h.com/sitemap.xml 
