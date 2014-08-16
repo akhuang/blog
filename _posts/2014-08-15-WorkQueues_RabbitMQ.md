@@ -10,6 +10,7 @@ categories: [personal github]
 
 
 1. 默认情况下队列发送消息给worker后会立即从队列中删除, 但此种情况下, 无法保证消息被worker顺利接收并执行;
+   
    解决办法: Message acknowledgment(消息确认)
 
 
