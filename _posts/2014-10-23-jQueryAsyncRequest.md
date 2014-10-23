@@ -1,4 +1,12 @@
-jquery ajax默认为异步请求, 但在实际开发过程中却发现在请求过程中会阻塞其它请求, 当前请求完成后才会处理其它请求, 这不符合异步请求的场景, 问题在哪呢?
+---
+layout: post
+title: "jQuery Async Request"
+date: 2014-10-23 -2223
+comments: true
+categories: [personal github]
+---
+
+jQuery ajax默认为异步请求, 但在实际开发过程中却发现在请求过程中会阻塞其它请求, 当前请求完成后才会处理其它请求, 这不符合异步请求的场景, 问题在哪呢?
 
 Http请求：get / post
 
