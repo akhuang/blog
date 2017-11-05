@@ -1,4 +1,0 @@
-1. PL/SQL developer工具管理数据库，类似Sql2008下的Management studio
-2. procedure中给一个变量赋值使用 :=
-3. 将字符串转换成日期：date'2015-2-3'
-4. 以分号结尾；同时执行两段不同的sql必须在末尾加分号分割
